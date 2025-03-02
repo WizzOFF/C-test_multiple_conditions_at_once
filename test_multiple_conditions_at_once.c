@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
 
     // Modify with an "OR" constraint with ||
-
+    /*
     if (age > 30 || argent > 100000)
     {
         printf("Bienvenue chez PicsouBanque !");
@@ -18,6 +18,19 @@ int main(int argc, char *argv[])
     {
         printf("Hors de ma vue, miserable !");
     }
-     
+    */
+
+
+    // Test the opposite of a condition with !
+
+    if (!(age < 18))
+    {
+        printf("Bienvenue chez PicsouBanque !");
+    }
+    else
+    {
+        printf("Hors de ma vue, miserable gone !");
+    }
+    
     return 0;
 }
