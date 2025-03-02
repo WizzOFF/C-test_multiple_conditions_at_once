@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 
 
     // Optimize the code with the switch condition
-
+    /*
     switch (age)
     {
     case 2:
@@ -86,6 +86,18 @@ int main(int argc, char *argv[])
         printf("Je n'ai aucune reponse pour ton age");
         break;
     }
-    
+    */
+
+
+    // Condensed conditions: ternaries
+    /*
+    if (majeur)
+        age = 18;
+    else
+        age = 17;
+    */
+
+    age = (majeur) ? 18 : 17;
+
     return 0;
 }
