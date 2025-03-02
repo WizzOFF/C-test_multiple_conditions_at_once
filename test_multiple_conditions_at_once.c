@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
 
     // Make true/false conditions with booleans
-
+    /*
     if (0)
     {
         printf("C'est vrai");
@@ -44,6 +44,19 @@ int main(int argc, char *argv[])
     {
         printf("C'est faux");
     }
+    */
+
+
+    // Make true/false conditions with booleans
     
+    if (1)
+    {
+        printf("C'est vrai");
+    }
+    else
+    {
+        printf("C'est faux");
+    }
+
     return 0;
 }
